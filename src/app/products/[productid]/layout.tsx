@@ -1,4 +1,10 @@
 
+// export const metadata = {
+//     title: "meta data product pages "
+// }
+
+
+
 export default function mylayout({
     children,
 }: Readonly<{

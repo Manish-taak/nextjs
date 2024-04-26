@@ -11,6 +11,9 @@ const Page = ({ params }: {
     if (parseInt(params.rewiewsid) > 1000) {
         notFound()
     }
+    if (parseInt(params.productid) > 12) {
+        notFound()
+    }
 
     return (
         <div>reviews page dynamic nested  routing
